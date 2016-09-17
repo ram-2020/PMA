@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PopularMovieApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_share">Share</string>
+    <string name="pref_list_type_key">listtype</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="title_activity_settings">Settings</string>
+    <!-- Key name for Movie informational grid preference in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_gridtype_key" translatable="false">movie</string>
+
+    <string name="pref_listtype_default" translatable="false">popular</string>
+    <!-- Label for the Popular Movie List Type preference [CHAR LIMIT=30] -->
+    <string name="pref_movie_label">Popular Movie List Type</string>
+    <!-- Value in SharedPreferences for most_popular movie list option [CHAR LIMIT=NONE] -->
+    <string name="pref_value_most_popular" translatable="false">popular</string>
+    <!-- Label for Most Popular option in movie list preference [CHAR LIMIT=25] -->
+    <string name="pref_label_most_popular">Most Popular</string>
+    <!-- Label for Top Rated option in movie type list preference [CHAR LIMIT=25] -->
+    <string name="pref_label_top_rated">Top Rated</string>
+    <!-- Value in SharedPreferences for Top Rated option [CHAR LIMIT=NONE] -->
+    <string name="pref_value_top_rated" translatable="false">top_rated</string>
+    <string name="image_size">w185</string>
+    <string name="image_path">http://image.tmdb.org/t/p/</string>
+</resources>
