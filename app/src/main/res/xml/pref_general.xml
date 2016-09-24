@@ -7,5 +7,6 @@
         android:key="@string/pref_gridtype_key"
         android:defaultValue="@string/pref_value_most_popular"
         android:entryValues="@array/pref_movie_values"
-        android:entries="@array/pref_movie_options" />
+        android:entries="@array/pref_movie_options"
+        android:id="@+id/pref_list" />
 </PreferenceScreen>
